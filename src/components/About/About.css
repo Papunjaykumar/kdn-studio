@@ -1,0 +1,93 @@
+#about{
+    padding: 3rem 0 6rem;
+
+    @media (max-width:992px) {
+        padding: 3rem 0;
+    }
+
+    .title_heading{
+        text-align: center;
+        max-width: 50rem;
+        margin: auto;
+        & h3{
+            font-size: 2.5rem;
+            line-height: 3.214rem;
+            font-weight: 700;
+            color:var(--white-color);
+            margin-bottom: 0;
+
+            @media (max-width:767px) {
+                font-size: 1.8rem;
+                line-height: 2.8rem;
+            }
+        }
+        & p{
+            font-size: 1.214rem;
+            line-height: 2rem;
+            color: var(--font-color);
+        }
+    }
+    .about_box_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4rem;
+        flex-wrap: wrap;
+
+        @media (max-width:992px) {
+            justify-content: center;
+        }
+        @media (max-width:767px) {
+            flex-direction: column;
+        }
+
+        .about_box{
+            width: calc(100% / 3 - 1rem);
+            padding: 1rem;
+            box-sizing: border-box;
+            text-align: center;
+            @media (max-width:992px) {
+                width:50%;
+            }
+            @media (max-width:767px) {
+                width:100%;
+            }
+
+            .about_icon{
+                font-size: 2.2857rem;
+                width:5rem;
+                height:5rem;
+                margin: auto;
+                line-height:5rem;
+                border-radius: 50%;
+                color:var(--primary-color);
+                background: var(--primary-bg);
+
+                &.green_icon{
+                    color:var(--green-color);
+                    background: var(--green-color-bg);
+                }
+
+                &.blue_icon{
+                    color:var(--blue-color);
+                    background: var(--blue-color-bg);
+                }
+            }
+
+            & h5{
+                font-weight:700;
+                color:var(--white-color);
+                margin:1.67rem 0 ;
+                font-size:1.7143rem;
+                line-height:2.4286rem;
+            }
+            & p{
+                font-size:1.214rem;
+                line-height:2rem;
+                color:var(--font-color);
+                font-weight:500;
+            }
+        }
+    }
+    
+}
