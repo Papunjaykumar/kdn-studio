@@ -48,6 +48,7 @@ export default function Navbar() {
                                         to="home"
                                         spy={true}
                                         smooth={true}
+                                        onClick={sidenavShow}
                                     >
                                         Home
                                     </Link>
@@ -57,6 +58,7 @@ export default function Navbar() {
                                         to="about"
                                         spy={true}
                                         smooth={true}
+                                        onClick={sidenavShow}
                                     >
                                         About Us
                                     </Link>
@@ -66,6 +68,7 @@ export default function Navbar() {
                                         to="service"
                                         spy={true}
                                         smooth={true}
+                                        onClick={sidenavShow}
                                     >
                                         Services
                                     </Link>
@@ -75,6 +78,7 @@ export default function Navbar() {
                                         to="portfolio"
                                         spy={true}
                                         smooth={true}
+                                        onClick={sidenavShow}
                                     >
                                         Portfolio
                                     </Link>
@@ -84,6 +88,7 @@ export default function Navbar() {
                                         to="team"
                                         spy={true}
                                         smooth={true}
+                                        onClick={sidenavShow}
                                     >
                                         Team
                                     </Link>
@@ -93,6 +98,7 @@ export default function Navbar() {
                                         to="contact"
                                         spy={true}
                                         smooth={true}
+                                        onClick={sidenavShow}
                                     >
                                         Contact Us
                                     </Link>
