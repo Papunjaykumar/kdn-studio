@@ -35,7 +35,7 @@
   html,body{
     font-size:14px;
     font-family:var(--primary-font);
-    background-color: var(--bg-color);
+    background-color: #fff8e1;
   }
   /* custom scrollbar */
   ::-webkit-scrollbar{

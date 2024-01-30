@@ -108,6 +108,7 @@
                 }
             }
             & h5{
+                width:80%;
                 font-weight: 600;
                 color:var(--white-color);
                 font-size:1.7143rem;

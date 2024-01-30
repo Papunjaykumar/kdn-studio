@@ -11,7 +11,7 @@
             font-size: 2.5rem;
             line-height: 3.214rem;
             font-weight: 700;
-            color: var(--white-color);
+            color: black;
             margin-bottom: 0;
 
             @media (max-width:767px) {
@@ -59,7 +59,7 @@
                 border-radius: 0 2.1429rem;
                 height:300px;
                 width:300px;
-                object-fit: cover;
+                object-fit: contain;
 
                 @media (max-width:767px) {
                     max-width: 100%;

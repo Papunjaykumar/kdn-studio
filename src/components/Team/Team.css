@@ -67,7 +67,7 @@
             width:calc(100% / 3 - 1rem);
             padding:2.8571rem 2.1429rem;
             border-radius:1.4286rem;
-            background: var(--bg-dark-color);
+            background: white;
             box-sizing: border-box;
             margin-bottom: 3rem;
             position:relative;
@@ -91,7 +91,7 @@
             .team_dtls{
                 & h5{
                     font-weight: 600;
-                    color:var(--white-color);
+                    color:black;
                     font-size:1.7143rem;
                     line-height: 2.4286rem;;
                 }

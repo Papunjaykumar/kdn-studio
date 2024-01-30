@@ -1,6 +1,11 @@
+
 .footer{
-    background-color: var(--dark-layer-color);
+    position: absolute;
+    width:100%;
+    left:0;
+    background-color: black;
     padding:2rem;
+    margin:auto 0rem;
     text-align: center;
     border-top: .0714rem solid var(--border-color-light);
      & p{

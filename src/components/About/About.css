@@ -13,7 +13,7 @@
             font-size: 2.5rem;
             line-height: 3.214rem;
             font-weight: 700;
-            color:var(--white-color);
+            color:black;
             margin-bottom: 0;
 
             @media (max-width:767px) {
@@ -80,6 +80,7 @@
                 margin:1.67rem 0 ;
                 font-size:1.7143rem;
                 line-height:2.4286rem;
+                color:black;
             }
             & p{
                 font-size:1.214rem;

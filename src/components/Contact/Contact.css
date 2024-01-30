@@ -24,6 +24,9 @@
             @media (max-width:767px) {
                 width:100%;
             }
+            & h2{
+                color:black;
+            }
         }
         .input_wrapper{
             width:100%;
@@ -31,7 +34,7 @@
             .form-control{
                 width:100%;
                 background-color: transparent;
-                border:.0714rem solid var(--white-color);
+                border:.0714rem solid var(--primary-color);
                 color:var(--white-color);
                 font-size:1.0714rem;
                 font-weight: 400;
@@ -43,7 +46,7 @@
                 width:100%;
                 display: block;
                 background-color: transparent;
-                border:.0714rem solid var(--white-color);
+                border:.0714rem solid var(--primary-color);
                 color:var(--white-color);
                 font-size:1.0714rem;
                 font-weight: 400;
@@ -57,7 +60,7 @@
             .form-control:focus,
             & textarea:focus{
                 border-color: var(--primary-color);
-                color:var(--white-color);
+                color:black;
             }
         }
         .btn_wrapper{

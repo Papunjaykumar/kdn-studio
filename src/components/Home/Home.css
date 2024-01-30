@@ -39,7 +39,7 @@
      .banner_outer{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         position: relative;
         z-index: 3;
 
@@ -48,7 +48,7 @@
         }
 
         .col {
-            width: calc(100% / 2 - 15px);
+            width: 50%;
             height: auto;
             position: relative;
             margin-bottom: 8rem;
@@ -69,7 +69,9 @@
             width: 80%;
             font-size: 4rem;
             line-height: 5rem;
+            text-align: center;
             font-weight: 200;
+            margin:0px auto;
             margin-bottom: 1rem;
             text-transform: uppercase;
 
@@ -93,6 +95,7 @@
                 width: 80%;
                 margin: 0;
                 padding: 0;
+                text-align: center;
                 font-size: 1.143rem;
                 line-height: 2rem;
                 color: var(--font-color);
@@ -200,7 +203,7 @@
             padding:2.8571rem 2.1429rem;
             border-radius: 1.4286rem;
             text-align: center;
-            background: var(--bg-dark-color);
+            background: #fff;
             box-sizing:border-box;
             margin-bottom: 3rem;
 
@@ -239,7 +242,7 @@
         .icon_about{
             & h4{
                 font-weight:700;
-                color:var(--white-color);
+                color:black;
                 margin:1.67rem 0 ;
                 font-size:1.7143rem;
                 line-height:2.4286rem;

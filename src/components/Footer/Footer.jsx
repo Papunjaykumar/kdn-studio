@@ -29,7 +29,7 @@ export default function Footer() {
         <>
             <section className='container'>
                 <footer className='footer'>
-                    <p>@ All Right Reserved 2023 Designed By <a href='/'>Papunjay Kumar</a></p>
+                    <p>Copyright &copy; All Right Reserved 2023 KD Design Studio</p>
                 </footer>
             </section>
             {/* scroll to tp */}

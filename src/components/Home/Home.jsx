@@ -21,15 +21,11 @@ export default function Home() {
                             <h3 className='title'>
                                 We strive to create  <span>Space</span>
                             </h3>
-                            <p>KD Studio , a leading architectural firm dedicated to transformating visions into extraordinary spaces .
-                                With a rich history of innovation and a unique blend of creativity and functionallity to every project</p>
+                            <p>KD Design Studio, is an architectural firm where we are dedicated to transformating visions into extraordinary spaces.
+                                We brings innovation and a unique blend of creativity and functionallity to every projects.</p>
 
                         </div>
-                        <div className='col'>
-                            <div className='sub_banner_image'>
-                                <img src={BannerImage} alt='Banner_image' />
-                            </div>
-                        </div>
+                        
 
                     </div>
                     <div className='icon_style'>

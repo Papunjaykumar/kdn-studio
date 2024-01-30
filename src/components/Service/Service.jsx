@@ -17,7 +17,6 @@ export default function Service() {
             <div className='container'>
                 <div className='title_headline'>
                     <h3>What's Services we are offering to Our Customer</h3>
-                    <p>Description Not Provided.</p>
                 </div>
                 <div className='service_wrapper'>
                     <div className='service_box'>
@@ -27,7 +26,6 @@ export default function Service() {
                         <h4 className='number'>01</h4>
                         <div className='service_content'>
                             <h5>ARCHITECTURE DESIGN SERVICES</h5>
-                            <p>Some Description</p>
                             <a href='/' className='read'>Read more...</a>
                         </div>
                     </div>
@@ -36,7 +34,6 @@ export default function Service() {
                         <h4 className='number'>02</h4>
                         <div className='service_content'>
                             <h5>INTERIOR DESIGN</h5>
-                            <p>Some Description</p>
                             <a href='/' className='read'>Read more...</a>
                         </div>
                     </div>
@@ -47,7 +44,6 @@ export default function Service() {
                         <h4 className='number'>03</h4>
                         <div className='service_content'>
                             <h5>ARCHITECTURE ENGINEERING SERVICES</h5>
-                            <p>Some Description</p>
                             <a href='/' className='read'>Read more...</a>
                         </div>
                     </div>
@@ -58,7 +54,6 @@ export default function Service() {
                         <h4 className='number'>04</h4>
                         <div className='service_content'>
                             <h5>HOME BUILDING AND RENOVATIONS</h5>
-                            <p>Some Description</p>
                             <a href='/' className='read'>Read more...</a>
                         </div>
                     </div>
@@ -68,8 +63,7 @@ export default function Service() {
                         </div>
                         <h4 className='number'>05</h4>
                         <div className='service_content'>
-                            <h5>CUSTOMER HOME DESIGN</h5>
-                            <p>Some Description</p>
+                            <h5>BIM</h5>
                             <a href='/' className='read'>Read more...</a>
                         </div>
                     </div>
@@ -80,7 +74,6 @@ export default function Service() {
                         <h4 className='number'>06</h4>
                         <div className='service_content'>
                             <h5>SITE MASTER PLANNING</h5>
-                            <p>Some Description</p>
                             <a href='/' className='read'>Read more...</a>
                         </div>
                     </div>
